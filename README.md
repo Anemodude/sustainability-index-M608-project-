@@ -24,9 +24,8 @@ Authentication was intentionally not included because:
 - The dashboard uses public, non‑sensitive data  
 - Google Colab already runs in a private user session  
 - The project’s goal is real‑time visualization, not user‑specific access  
-- Adding login would increase complexity without improving functionality  
-- The M608 academic brief does not require authentication  
-
+- Adding login would increase complexity without improving functionality
+  
 ## 🔧 How to Run (Google Colab)
 Install dependencies:
 - !pip install dash so that the application dependencies are installed
@@ -41,4 +40,5 @@ Install dependencies:
 - Alert notifications  
 - Multi‑city support  
 - Optional authentication for multi‑user deployment
+
 
